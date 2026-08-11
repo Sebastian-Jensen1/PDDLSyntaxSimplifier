@@ -3,7 +3,6 @@ Software P4 Project
 OCaml Compiler, adding extra functionality to PDDL with :grid syntax to make PDDL with a lot of places less time-intensive and repetitive.
 WE DID NOT MAKE PDDL, RATHER THE :grid SYNTAX EXTENSION.
 
-**UNFINISHED README**
 
 # Running the Compiler
 To run the compiler, place yourself in the "P4" folder (The outermost folder) and execute **"dune build"** followed by **"dune exec grid_extension"**. The output files are called **"transformed_domain.pddl"** and **"transformed_problem.pddl"**
