@@ -1,6 +1,10 @@
-BSc AAU CPH Software Semester 4 Project
-OCaml Compiler, adding extra functionality to PDDL with :grid syntax to make PDDL with a lot of places less time-intensive and repetitive.
-WE DID NOT MAKE PDDL, RATHER THE :grid SYNTAX EXTENSION.
+# PDDLSyntaxSimplifier
+
+An OCaml compiler that extends PDDL (Planning Domain Definition Language) with a custom `:grid` syntax, letting you declaratively define grid-based environments — connections, locked areas, and keys — instead of hand-writing every object, predicate, and connection individually. The compiler translates `:grid` definitions into standard, planner-ready PDDL that an AI planner (e.g. Fast Downward) can solve directly.
+
+Originally built as a group project for the BSc Software Semester 4 course at AAU Copenhagen.
+
+> **Note:** this project does not implement PDDL itself — only the `:grid` syntax extension and its compilation into standard PDDL.
 
 
 # Running the Compiler
